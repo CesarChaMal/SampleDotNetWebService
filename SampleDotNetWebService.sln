@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDotNetWebService", "SampleDotNetWebService\SampleDotNetWebService.csproj", "{DE630B79-550F-4813-8D3B-75322FDD1382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDotNetWebServiceClient", "SampleDotNetWebServiceClient\SampleDotNetWebServiceClient.csproj", "{3CBD4FC3-F466-4E37-A814-1F9630ADDB78}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DE630B79-550F-4813-8D3B-75322FDD1382} = {DE630B79-550F-4813-8D3B-75322FDD1382}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE630B79-550F-4813-8D3B-75322FDD1382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE630B79-550F-4813-8D3B-75322FDD1382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE630B79-550F-4813-8D3B-75322FDD1382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE630B79-550F-4813-8D3B-75322FDD1382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CBD4FC3-F466-4E37-A814-1F9630ADDB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBD4FC3-F466-4E37-A814-1F9630ADDB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBD4FC3-F466-4E37-A814-1F9630ADDB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBD4FC3-F466-4E37-A814-1F9630ADDB78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {542EFC33-FE8F-48BB-8EDE-31CD31C7579D}
+	EndGlobalSection
+EndGlobal
